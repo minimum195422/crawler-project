@@ -1,0 +1,44 @@
+# Selenium for web crawling
+selenium>=4.15.2
+webdriver-manager>=4.0.1
+
+# AWS integration
+boto3>=1.29.0
+botocore>=1.32.0
+
+# Image processing
+Pillow>=10.1.0
+
+# HTTP requests
+requests>=2.31.0
+
+# Utility libraries
+python-dateutil>=2.8.2
+pandas>=2.1.3
+numpy>=1.26.2
+
+# For handling JSON and data processing
+jsonschema>=4.19.2
+pydantic>=2.5.2
+
+# Threading and concurrency
+concurrent-futures>=3.0.5
+
+# Logging
+structlog>=23.2.0
+
+# For testing
+pytest>=7.4.3
+pytest-mock>=3.12.0
+
+# Type hints
+typing-extensions>=4.8.0
+
+# CLI utilities (optional)
+click>=8.1.7
+rich>=13.7.0
+
+# Additional Airflow providers if needed
+# These are commented out as they may already be included in the Airflow image
+# apache-airflow-providers-amazon>=8.8.0
+# apache-airflow-providers-http>=4.6.0
